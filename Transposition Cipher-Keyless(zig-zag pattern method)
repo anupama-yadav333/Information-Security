@@ -5,6 +5,9 @@ import java.util.List;
 
 public class TranspositionKeyless {
 	
+	//In this cipher, the plaintext is arranged in two lines as a zigzag pattern (which means column by column)
+	//the ciphertext is created reading the pattern row by row.
+
 	public static List<Character> Encryption(String pt){
 		
 		List<Character> rowOne = new ArrayList<Character>();
