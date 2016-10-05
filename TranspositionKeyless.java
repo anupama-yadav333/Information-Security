@@ -7,6 +7,9 @@ public class TranspositionKeyless {
 	
 	public static List<Character> Encryption(String pt){
 		
+		//In this cipher, the plaintext is arranged in two lines as a zigzag pattern (which means column by column)
+	       //the ciphertext is created reading the pattern row by row.
+
 		List<Character> rowOne = new ArrayList<Character>();
 		List<Character> rowTwo = new ArrayList<Character>();
 		
